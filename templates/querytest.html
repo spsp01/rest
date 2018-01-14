@@ -145,7 +145,7 @@
   methods: {
       geturl: function (info) {
       urlapi =  this.urlp
-      apibase = 'http://127.0.0.1:5000/' + info
+      apibase = 'https://rest-json.herokuapp.com/' + info
       axios.post(apibase,{
     "url": urlapi 
   })
