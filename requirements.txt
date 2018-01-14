@@ -4,5 +4,5 @@ Flask-JWT
 Flask-SQLAlchemy
 bs4
 requests
-htmll5lib
+html5lib
 uwsgi
