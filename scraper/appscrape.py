@@ -5,6 +5,7 @@ connection = sqlite3.connect('data.db')
 #create_table = "CREATE TABLE urls (id INTEGER, data text, url text, desc text)"
 #cursor.execute(create_table)
 d = webdriver.Chrome()
+
 base_url = d.get('https://www.google.pl/search?q=mleko modyfikowane&num=100')
 urls = d.find_elements_by_css_selector('h3.r a')
 description = d.find_elements_by_css_selector('span.st')
